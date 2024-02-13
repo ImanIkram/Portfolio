@@ -1,0 +1,21 @@
+/*
+#eddcd9 - background
+#f2ebe9 - navbar
+#de5499 - pink - logo, 
+#264143 - footer - writing
+#e99f4c - yellow, pop of color
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+}
+
+body{
+    background: #eddcd9;
+    overflow: hidden;
+    overflow-y: scroll;
+}
