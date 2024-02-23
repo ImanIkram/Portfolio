@@ -14,6 +14,7 @@
     top:0;
     z-index: 3;
     background: #f2ebe9;
+    box-shadow: 0 2px 4px rgba(233, 159, 76, 0.5); /* Add shadow effect */
 }
 
 .logo {
@@ -23,18 +24,20 @@
 }
 
 .menuListItem {
-    margin:1rem;
+    margin: 1rem 1rem;
     cursor: pointer;
     color: #264143;
-    font-family:'Philosopher';
-    font-size: 25px;
+    font-size: 30px;
+    font-family: 'Philosopher';
 }
+
 
 .menuListItem:hover {
     color: #de5499;
     padding-bottom: 0.5rem;
     border-bottom: solid 3px #e99f4c;
 }
+
 
 .menuButton{
     background: #e99f4c;
@@ -47,9 +50,21 @@
     padding-right: 20px;
     padding-left: 5px;
     border-radius: 3rem;
-    font-family:'Philosopher';
+    font-family: 'Philosopher';
     font-size: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added box-shadow transition */
 }
+
+.menuButton:hover {
+  
+    transform: scale(1.1); /* Scale up by 10% on hover */
+    box-shadow: 0 0 0 3px rgba(222, 84, 153, 0.5), /* Initial border */
+    0 0 0 5px rgba(222, 84, 153, 0.5), /* Middle border */
+    0 0 0 8px rgba(222, 84, 153, 0.5); /* Outer border */
+    outline: none; /* Remove default outline */
+}
+
+
 
 .menuButtonIcon {
     object-fit: cover;

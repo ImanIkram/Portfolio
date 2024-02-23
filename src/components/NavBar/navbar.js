@@ -2,7 +2,8 @@ import React from 'react';
 import './navbar.css';
 import logo from '../../assets/II.png';
 import CMe from '../../assets/2.png';
-import {Link} from 'react-scroll';
+import { Link} from 'react-scroll';
+ 
 
 const Navbar = () => {
   return (
