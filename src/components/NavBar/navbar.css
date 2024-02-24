@@ -21,7 +21,14 @@
     object-fit: cover;
     height: 6rem;
     width: 6rem;
+    transition: transform 0.3s ease;
 }
+
+.logo:hover {
+  transform: scale(1.1); /* Increasing scale on hover */
+}
+
+
 
 .menuListItem {
     margin: 1rem 1rem;
@@ -71,6 +78,7 @@
     height: 40px;
     width: 50px;
     margin: 10px;
+    
 }
 
 
