@@ -1,7 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Honk&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&family=Marhey:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ojuju:wght@200..800&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Rock+3D&display=swap');
 .navbar {
     height: 10rem;
     width: 100vw;
@@ -22,6 +21,8 @@
     height: 6rem;
     width: 6rem;
     transition: transform 0.3s ease;
+    margin-left: 40px;
+   
 }
 
 .logo:hover {
@@ -34,8 +35,9 @@
     margin: 1rem 1rem;
     cursor: pointer;
     color: #264143;
-    font-size: 25px;
-    font-family: 'Philosopher';
+    font-size: 30px;
+    font-family: 'Kalnia';
+    font-weight: 350;
 }
 
 
@@ -57,10 +59,12 @@
     padding-right: 20px;
     padding-left: 5px;
     border-radius: 3rem;
-    font-family: 'Philosopher';
+    font-family: 'Kalnia';
     font-size: 20px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added box-shadow transition */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    font-weight: 350;
+    margin-right: 50px;
 }
 
 .menuButton:hover {
