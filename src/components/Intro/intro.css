@@ -18,6 +18,8 @@
     right: 0;
     object-fit: cover;
     height: 70vh;
+    margin-top: 60px;
+    margin-right: 50px;
 }
 
 .introContent {
@@ -35,10 +37,19 @@
     font-optical-sizing: auto;
     font-weight: 300;
     margin-left: 50px;
+    margin-top: 0;
+    
 }
 
 .hello{
     font-size: 2rem;
     font-family: 'Kalnia';
+    font-weight: 350;
 
+}
+
+.introPara {
+    margin-right: 800px;
+    font-size: 25px;
+    font-family: 'Montserrat';
 }
