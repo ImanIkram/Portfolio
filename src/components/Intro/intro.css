@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&family=Marhey:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ojuju:wght@200..800&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Rock+3D&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Nanum+Myeongjo&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Great+Vibes&family=Nanum+Myeongjo&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 #intro {
     height: 100vh;
@@ -26,7 +29,7 @@
     height: 100vh;
     width: 100vw;
     padding: 2rem;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 700;
     /*margin: 4rem;*/
     color: #264143;
@@ -42,14 +45,47 @@
 }
 
 .hello{
-    font-size: 2rem;
-    font-family: 'Kalnia';
-    font-weight: 350;
+    font-size: 3rem;
+    font-family: 'Great Vibes';
+    font-weight: 500;
 
 }
 
 .introPara {
     margin-right: 800px;
     font-size: 25px;
-    font-family: 'Montserrat';
+    font-family: "Nanum Myeongjo";
+    margin-top: 20px;
+    line-height: 35px;
+}
+
+.introText{
+    font-weight: 600;
+}
+
+.introName {
+    color: #de5499;
+}
+
+.btn{
+    background: #e99f4c;
+    color: #264143;
+    border: none;
+    border-radius: 3rem;
+    font-family: 'Kalnia';
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: 400;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    
+
+}
+
+.btn:hover{
+    transform: scale(1.1); /* Scale up by 10% on hover */
+    box-shadow: 0 0 0 3px rgba(222, 84, 153, 0.5), /* Initial border */
+    0 0 0 5px rgba(222, 84, 153, 0.5), /* Middle border */
+    0 0 0 8px rgba(222, 84, 153, 0.5); /* Outer border */
+    outline: none; /* Remove default outline */
 }
