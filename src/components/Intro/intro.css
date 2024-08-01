@@ -14,13 +14,14 @@
     overflow: hidden;
     position: relative;
     font-family: 'Kalnia'; /* Apply a default font-family to all text elements */
+    padding: 10px;
 }
 
 /* Container for the text content */
 .introContent {
     flex: 1; /* Allow this to take up 50% of the width */
     padding: 2rem;
-    padding-left: 2rem;
+    padding-left: 10rem;
     font-size: 70px;
     font-weight: 300; /* Adjusted to be consistent */
     color: #264143;
@@ -33,11 +34,11 @@
 
 /* Styling for the image background */
 .bg {
-    flex: 0 0 20%; /* Allow this to take up 50% of the width */
-    /*position: relative;*/
-    height: 100%; /* Full height of the container */
-    object-fit: cover; /* Cover the entire area */
-    margin: 0; /* Remove margins for full coverage */
+    width: 30vw; /* 40% of the viewport width */
+    height: 30vw; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the area */
+    margin-top: 70px;
+    margin-right: 30px;
 }
 
 /* Styling for the text content in the intro section */
@@ -72,6 +73,7 @@
     padding: 1rem;
     font-size: 20px;
     font-weight: 400;
+    font-family: 'Kalnia';
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -82,4 +84,24 @@
                 0 0 0 5px rgba(222, 84, 153, 0.5),
                 0 0 0 8px rgba(222, 84, 153, 0.5);
     outline: none;
+}
+
+
+
+.typing-text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #264143; /* Cursor effect */
+    animation: typing 3s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 30%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: #264143; }
 }
