@@ -4,62 +4,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Nanum+Myeongjo&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Great+Vibes&family=Nanum+Myeongjo&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+/* Container for the entire intro section */
 #intro {
+    display: flex; /* Use Flexbox to align child elements */
     height: 100vh;
     width: 100vw;
     max-width: 100%;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
-    
+    font-family: 'Kalnia'; /* Apply a default font-family to all text elements */
 }
 
-.bg {
-    position: absolute;
-    z-index: -1;
-    top:0;
-    right: 0;
-    object-fit: cover;
-    height: 70vh;
-    margin-top: 60px;
-    margin-right: 50px;
-}
-
+/* Container for the text content */
 .introContent {
-    height: 100vh;
-    width: 100vw;
+    flex: 1; /* Allow this to take up 50% of the width */
     padding: 2rem;
+    padding-left: 2rem;
     font-size: 70px;
-    font-weight: 700;
-    /*margin: 4rem;*/
+    font-weight: 300; /* Adjusted to be consistent */
     color: #264143;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: 'kalnia';
-    font-optical-sizing: auto;
-    font-weight: 300;
-    margin-left: 50px;
+    margin-left: 0; /* Removed margin to fit perfectly */
     margin-top: 0;
-    
 }
 
-.hello{
+/* Styling for the image background */
+.bg {
+    flex: 0 0 20%; /* Allow this to take up 50% of the width */
+    /*position: relative;*/
+    height: 100%; /* Full height of the container */
+    object-fit: cover; /* Cover the entire area */
+    margin: 0; /* Remove margins for full coverage */
+}
+
+/* Styling for the text content in the intro section */
+.hello {
     font-size: 3rem;
     font-family: 'Great Vibes';
     font-weight: 500;
-
 }
 
 .introPara {
-    margin-right: 800px;
     font-size: 25px;
     font-family: "Nanum Myeongjo";
     margin-top: 20px;
     line-height: 35px;
+    text-align: left;
 }
 
-.introText{
+.introText {
     font-weight: 600;
 }
 
@@ -67,25 +63,23 @@
     color: #de5499;
 }
 
-.btn{
+/* Button styling */
+.btn {
     background: #e99f4c;
     color: #264143;
     border: none;
     border-radius: 3rem;
-    font-family: 'Kalnia';
     padding: 1rem;
     font-size: 20px;
     font-weight: 400;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
-    
-
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.btn:hover{
-    transform: scale(1.1); /* Scale up by 10% on hover */
-    box-shadow: 0 0 0 3px rgba(222, 84, 153, 0.5), /* Initial border */
-    0 0 0 5px rgba(222, 84, 153, 0.5), /* Middle border */
-    0 0 0 8px rgba(222, 84, 153, 0.5); /* Outer border */
-    outline: none; /* Remove default outline */
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 3px rgba(222, 84, 153, 0.5),
+                0 0 0 5px rgba(222, 84, 153, 0.5),
+                0 0 0 8px rgba(222, 84, 153, 0.5);
+    outline: none;
 }
