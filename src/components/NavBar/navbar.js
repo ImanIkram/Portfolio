@@ -7,17 +7,27 @@ import { Link} from 'react-scroll';
 
 const Navbar = () => {
   return (
+  
     <nav className="navbar">
+      <a href="index.html">
         <img src={logo}alt="logo" className='logo'/>
+        </a>
         <div className="menu">
-            <Link className="menuListItem">Home</Link>
-            <Link className="menuListItem">About</Link>
+            <Link to="nav" className="menuListItem" smooth={true} duration={500}>Home</Link>
+            <Link to="intro" className="menuListItem" smooth={true} duration={500}>About</Link>
             <Link className="menuListItem">Portfolio</Link>
             <Link className="menuListItem">Skills</Link>
         </div>
-        <button className="menuButton">
-            <img src={CMe} alt="" className="menuButtonIcon" />Contact Me</button>
-    </nav>
+      
+      
+        <button className="menuButton" > 
+            <img src={CMe} alt="" className="menuButtonIcon" /> 
+            <a href="https://www.linkedin.com/in/iman-ikram-9868a1218" target="_blank" rel="noopener noreferrer">
+            LinkedIn
+            </a>
+            </button>
+           
+      </nav>
   )
 }
 
