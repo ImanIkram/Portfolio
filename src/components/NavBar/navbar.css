@@ -79,6 +79,7 @@
     0 0 0 5px rgba(222, 84, 153, 0.5), /* Middle border */
     0 0 0 8px rgba(222, 84, 153, 0.5); /* Outer border */
     outline: none; /* Remove default outline */
+    text-decoration: underline; /* Underline text on hover */
 }
 
 
