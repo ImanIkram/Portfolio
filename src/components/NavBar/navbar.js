@@ -15,8 +15,10 @@ const Navbar = () => {
         <div className="menu">
           
             <Link to="intro" className="menuListItem" smooth={true} duration={500}>About</Link>
-            <Link className="menuListItem">
-            Resume </Link> 
+
+            <a href='https://drive.google.com/file/d/1WtEc4IfahZfGm_04ZKE901KrtFxEfyJp/view?usp=sharing'className="menuListItem" target="_blank" rel="noopener noreferrer">
+              
+            Resume </a> 
 
            
         </div>
