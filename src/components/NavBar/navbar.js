@@ -13,10 +13,12 @@ const Navbar = () => {
         <img src={logo}alt="logo" className='logo'/>
         </a>
         <div className="menu">
-            <Link to="nav" className="menuListItem" smooth={true} duration={500}>Home</Link>
+          
             <Link to="intro" className="menuListItem" smooth={true} duration={500}>About</Link>
-            <Link className="menuListItem">Portfolio</Link>
-            <Link className="menuListItem">Skills</Link>
+            <Link className="menuListItem">
+            Resume </Link> 
+
+           
         </div>
       
       
@@ -33,3 +35,6 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+  // <Link className="menuListItem">Home</Link> // 
+   //<Link className="menuListItem">Skills</Link>

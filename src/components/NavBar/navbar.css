@@ -72,6 +72,16 @@
     cursor: pointer;
 }
 
+.menuButton a {
+    color: #264143; /* Set the default link color */
+    text-decoration: none; /* Remove the default underline */
+}
+
+.menuButton a:hover {
+    color: #264143; /* Optional: Set the link hover color */
+    text-decoration: underline; /* Add underline on hover */
+}
+
 .menuButton:hover {
   
     transform: scale(1.1); /* Scale up by 10% on hover */
@@ -80,7 +90,9 @@
     0 0 0 8px rgba(222, 84, 153, 0.5); /* Outer border */
     outline: none; /* Remove default outline */
     text-decoration: underline; /* Underline text on hover */
+    
 }
+
 
 
 

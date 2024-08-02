@@ -70,12 +70,13 @@
     color: #264143;
     border: none;
     border-radius: 3rem;
-    padding: 1rem;
+    padding: 1rem; /* Adjust the padding for the desired space around the text */
     font-size: 20px;
     font-weight: 400;
     font-family: 'Kalnia';
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -84,8 +85,8 @@
                 0 0 0 5px rgba(222, 84, 153, 0.5),
                 0 0 0 8px rgba(222, 84, 153, 0.5);
     outline: none;
+    text-decoration: underline;
 }
-
 
 
 .typing-text {
