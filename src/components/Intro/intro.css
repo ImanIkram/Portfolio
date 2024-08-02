@@ -71,6 +71,8 @@
     border: none;
     border-radius: 3rem;
     padding: 1rem; /* Adjust the padding for the desired space around the text */
+    padding-left: 30px;
+    padding-right: 30px;
     font-size: 20px;
     font-weight: 400;
     font-family: 'Kalnia';
