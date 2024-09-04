@@ -16,7 +16,7 @@ const Navbar = () => {
           
             <Link to="intro" className="menuListItem" smooth={true} duration={500}>About</Link>
 
-            <a href='https://drive.google.com/file/d/1WtEc4IfahZfGm_04ZKE901KrtFxEfyJp/view?usp=sharing'className="menuListItem" target="_blank" rel="noopener noreferrer">
+            <a href='https://drive.google.com/file/d/1co6W0Mfy-djLuJuaqo0NQyEEEMP1Sp8H/view?usp=sharing'className="menuListItem" target="_blank" rel="noopener noreferrer">
               
             Resume </a> 
 
